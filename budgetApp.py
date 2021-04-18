@@ -4,7 +4,10 @@ class Budget:
     
     deposit() : Allowers user to allot funds for a particular category\n 
     checkBalance(): Computes a particular category balance\n
+    withdraw(): Allows user to withdraw from particular category\n
+    transfer():  Allows user to transfer from one category to the other\n
     getData(): Returns all data inputed for a particular category\n
+    
     '''
     
     def __init__(self, category):
